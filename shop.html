@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop UMKM NF</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav class="bg-white dark:bg-gray-800 antialiased">
+        <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 py-4">
+            <div class="flex items-center justify-between">
+
+                <div class="flex items-center space-x-8">
+                    <div class="shrink-0" style="transform: translateY(-10px);">
+                        <a href="https://www.fifa.com/id">
+                            <img class="block w-auto h-8 dark:hidden"
+                                src="https://banner2.cleanpng.com/20180409/hve/avgzogxdm.webp" alt="" width="200"
+                                height="0"></a>
+                        <img class="hidden w-auto h-8 dark:block"
+                            src="https://banner2.cleanpng.com/20180409/hve/avgzogxdm.webp" alt="" width="200"
+                            height="0"></a>
+                        </a>
+                    </div>
+
+                    <ul class="hidden lg:flex items-center justify-start gap-6 md:gap-8 py-3 sm:justify-center">
+                        <li>
+                            <a href="#hero" title=""
+                                class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Home
+                            </a>
+                        </li>
+                        <li class="shrink-0">
+                            <a href="#product-card" title=""
+                                class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Best Sellers
+                            </a>
+                        </li>
+                        <li class="shrink-0">
+                            <a href="order.html" title=""
+                                class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Order
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex items-center lg:space-x-2 relative">
+                    <button id="myCartDropdownButton1" data-dropdown-toggle="myCartDropdown1" type="button"
+                        class="inline-flex items-center rounded-lg justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm font-medium leading-none text-gray-900 dark:text-white">
+                        <span class="sr-only">
+                            My Cart
+                        </span>
+                        <svg class="w-5 h-5 lg:me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                        </svg>
+                        <span class="hidden sm:flex">My Cart</span>
+                        <svg class="hidden sm:flex w-4 h-4 text-gray-900 dark:text-white ms-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 9-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <div id="myCartDropdown1"
+                        class="w-[352px] absolute top-[40px] right-[20px] hidden z-10 mx-auto max-w-sm space-y-4 overflow-hidden rounded-lg bg-white p-4 antialiased shadow-lg dark:bg-gray-800">
+                        <div class="grid grid-cols-2">
+                            <div>
+                                <a href="#"
+                                    class="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline">Baju
+                                    Timnas Merah</a>
+                                <p class="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">Rp.
+                                    500.000</p>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-6">
+                                <p class="text-sm font-normal leading-none text-gray-500 dark:text-gray-400">Qty: 1</p>
+
+                                <button data-tooltip-target="tooltipRemoveItem1a" type="button"
+                                    class="text-red-600 hover:text-red-700 dark:text-red-500 dark:hover:text-red-600">
+                                    <span class="sr-only"> Remove </span>
+                                    <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd"
+                                            d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <div id="tooltipRemoveItem1a" role="tooltip"
+                                    class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+                                    Remove item
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2">
+                            <div>
+                                <a href="#"
+                                    class="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline">Baju
+                                    Kiper Timnas</a>
+                                <p class="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">Rp.
+                                    450.000</p>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-6">
+                                <p class="text-sm font-normal leading-none text-gray-500 dark:text-gray-400">Qty: 1</p>
+
+                                <button data-tooltip-target="tooltipRemoveItem2a" type="button"
+                                    class="text-red-600 hover:text-red-700 dark:text-red-500 dark:hover:text-red-600">
+                                    <span class="sr-only"> Remove </span>
+                                    <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd"
+                                            d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <div id="tooltipRemoveItem2a" role="tooltip"
+                                    class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+                                    Remove item
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2">
+                            <div>
+                                <a href="#"
+                                    class="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline">Baju
+                                    Timnas Hitam</a>
+                                <p class="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">Rp.
+                                    1.000.000</p>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-6">
+                                <p class="text-sm font-normal leading-none text-gray-500 dark:text-gray-400">Qty: 2</p>
+
+                                <button data-tooltip-target="tooltipRemoveItem3b" type="button"
+                                    class="text-red-600 hover:text-red-700 dark:text-red-500 dark:hover:text-red-600">
+                                    <span class="sr-only"> Remove </span>
+                                    <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd"
+                                            d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <div id="tooltipRemoveItem3b" role="tooltip"
+                                    class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+                                    Remove item
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2">
+                            <div>
+                                <a href="#"
+                                    class="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline">Baju
+                                    Timnas Putih</a>
+                                <p class="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">Rp.
+                                    500.000</p>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-6">
+                                <p class="text-sm font-normal leading-none text-gray-500 dark:text-gray-400">Qty: 1</p>
+
+                                <button data-tooltip-target="tooltipRemoveItem4b" type="button"
+                                    class="text-red-600 hover:text-red-700 dark:text-red-500 dark:hover:text-red-600">
+                                    <span class="sr-only"> Remove </span>
+                                    <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd"
+                                            d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <div id="tooltipRemoveItem4b" role="tooltip"
+                                    class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+                                    Remove item
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2">
+                            <div>
+                                <a href="#"
+                                    class="truncate text-sm font-semibold leading-none text-gray-900 dark:text-white hover:underline">Gelang
+                                    Kapten Timnas"</a>
+                                <p class="mt-0.5 truncate text-sm font-normal text-gray-500 dark:text-gray-400">Rp.
+                                    360.000</p>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-6">
+                                <p class="text-sm font-normal leading-none text-gray-500 dark:text-gray-400">Qty: 3</p>
+
+                                <button data-tooltip-target="tooltipRemoveItem5b" type="button"
+                                    class="text-red-600 hover:text-red-700 dark:text-red-500 dark:hover:text-red-600">
+                                    <span class="sr-only"> Remove </span>
+                                    <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd"
+                                            d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <div id="tooltipRemoveItem5b" role="tooltip"
+                                    class="tooltip invisible absolute z-10 inline-block rounded-lg bg-gray-900 px-3 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 dark:bg-gray-700">
+                                    Remove item
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" title=""
+                            class="mb-2 me-2 inline-flex w-full items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            role="button"> Proceed to Checkout </a>
+                    </div>
+
+
+                    <button id="userDropdownButton1" data-dropdown-toggle="userDropdown1" type="button"
+                        class="inline-flex items-center rounded-lg justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm font-medium leading-none text-gray-900 dark:text-white">
+                        <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-width="2"
+                                d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        Account
+                        <svg class="w-4 h-4 text-gray-900 dark:text-white ms-1" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 9-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <div id="userDropdown1"
+                        class=" absolute top-[40px] right-[20px] hidden z-10 w-56 divide-y divide-gray-100 overflow-hidden overflow-y-auto rounded-lg bg-white antialiased shadow dark:divide-gray-600 dark:bg-gray-700">
+                        <ul class="p-2 text-start text-sm font-medium text-gray-900 dark:text-white">
+                            <li><a href="login.html" title=""
+                                    class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 dropdown-text">
+                                    My Account </a></li>
+
+                            <li><a href="#about" title=""
+                                    class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 dropdown-text">
+                                    About </a></li>
+                            <li><a href="#author" title=""
+                                    class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 dropdown-text">
+                                    Author </a></li>
+                        </ul>
+                        <div class="p-2 text-sm font-medium text-gray-900 dark:text-white">
+                            <a href="logout.html" title=""
+                                class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 dropdown-text">
+                                Sign Out </a>
+
+                            <div id="ecommerce-navbar-menu-1"
+                                class="bg-gray-50 dark:bg-gray-700 dark:border-gray-600 border border-gray-200 rounded-lg py-3 hidden px-4 mt-4">
+                                <ul class="text-gray-900 dark:text-white text-sm font-medium dark:text-white space-y-3">
+                                    <li>
+                                        <a href="#" class="hover:text-primary-700 dark:hover:text-primary-500">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#product-card"
+                                            class="hover:text-primary-700 dark:hover:text-primary-500">Best Sellers</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+    </nav>
+
+    <section id="hero" class="bg-white py-8 antialiased dark:bg-gray-900 md:py-16">
+
+        <div class="mx-auto grid max-w-screen-xl px-4 pb-8 md:grid-cols-12 lg:gap-12 lg:pb-16 xl:gap-0">
+            <div class="content-center justify-self-start md:col-span-7 md:text-start">
+                <h1
+                    class="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-white md:max-w-2xl md:text-5xl xl:text-6xl">
+                    Limited Time Offer!<br />Up to 50% OFF!</h1>
+                <p class="mb-4 max-w-2xl text-gray-500 dark:text-gray-400 md:mb-12 md:text-lg mb-3 lg:mb-5 lg:text-xl">
+                    Don't
+                    Wait - Limited Stock at Unbeatable Prices!</p>
+                <a href="#product-card"
+                    class="inline-block rounded-lg bg-primary-700 px-6 py-3.5 text-center font-medium text-black border hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Shop
+                    Now</a>
+            </div>
+            <div class="hidden md:col-span-5 md:mt-0 md:flex">
+                <img class="dark:hidden"
+                    src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/4/26/102b2d74-94c9-4ddc-9265-b012bc327c7b.jpg"
+                    alt="shopping illustration" />
+                <img class="hidden dark:block"
+                    src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/4/26/102b2d74-94c9-4ddc-9265-b012bc327c7b.jpg"
+                    alt="shopping illustration" />
+            </div>
+    </section>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .product p {
+            color: #888;
+            margin: 5px 0;
+        }
+
+        .product .price {
+            font-size: 1.5em;
+            color: #201f1f;
+            font-weight: bold;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+
+        }
+
+        .product.beli {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="card" id="product-card">
+
+            <div class="product">
+                <img src="img/jerseykiper.jpeg" alt="Baju Kiper TImnas Indonesia">
+                <h3>Baju Kiper TImnas Indonesia</h3>
+                <p>Ukuran: S, M, L, XL</p>
+                <p class="price">Rp 450.000</p>
+                <br>
+                <a class="beli"
+                    href="https://api.whatsapp.com/send/?phone=%2B6281386823353&text&type=phone_number&app_absent=0">Beli
+                    Sekarang</a>
+            </div>
+
+            <div class="product">
+                <img src="img/jerseymerah.jpg" alt="Jersey Merah Timnas Indonesia">
+                <h3>Jersey Merah Timnas Indonesia</h3>
+                <p>Ukuran: S, M, L, XL</p>
+                <p class="price">Rp 500.000</p>
+                <br>
+                <a class="beli"
+                    href="https://api.whatsapp.com/send/?phone=%2B6281386823353&text&type=phone_number&app_absent=0">Beli
+                    Sekarang</a>
+            </div>
+
+            <div class="product">
+                <img src="img/jerseyhitam.webp" alt="Jersey Hitam TImnas Indonesia">
+                <h3>Jersey Hitam TImnas Indonesia</h3>
+                <p>Ukuran: S, M, L, XL</p>
+                <p class="price">Rp 500.000</p>
+                <br>
+                <a class="beli"
+                    href="https://api.whatsapp.com/send/?phone=%2B6281386823353&text&type=phone_number&app_absent=0">Beli
+                    Sekarang</a>
+            </div>
+
+            <div class="product">
+                <img src="img/jerseyputih.jpeg" alt="Jersey Putih TImnas Indonesia">
+                <h3>Jersey Putih TImnas Indonesia</h3>
+                <p>Ukuran: S, M, L, XL</p>
+                <p class="price">Rp 500.000</p>
+                <br>
+                <a class="beli"
+                    href="https://api.whatsapp.com/send/?phone=%2B6281386823353&text&type=phone_number&app_absent=0">Beli
+                    Sekarang</a>
+            </div>
+
+            <div class="product">
+                <img src="img/jerseybiru.jpg" alt="Jersey Hitam TImnas Indonesia">
+                <h3>Jersey Biru TImnas Indonesia</h3>
+                <p>Ukuran: S, M, L, XL</p>
+                <p class="price">Rp 500.000</p>
+                <br>
+                <a class="beli"
+                    href="https://api.whatsapp.com/send/?phone=%2B6281386823353&text&type=phone_number&app_absent=0">Beli
+                    Sekarang</a>
+            </div>
+    </body>
+
+</html>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .slider {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .slider-images {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slider-images img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        font-size: 24px;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+
+    footer {
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+<div class="container mx-auto pt-36 " id="about">
+    <div class="flex flex-wrap justify-between">
+        <div class="mb-5 md:w-1/2 mx-auto p-4 bg-black border border-gray-500 rounded-lg">
+            <h1 class="text-xl font-bold b text-white">ABOUT US!</h1>
+            <br>
+            <p class="text-white">Selamat Datang Di Toko UMKM NF
+                <br>
+                Kami adalah penyedia baju sepak bola terpercaya yang mengutamakan kualitas dan kenyamanan. Dengan
+                berbagai pilihan jersey tim favorit Anda, baju custom, dan perlengkapan olahraga lainnya, kami hadir
+                untuk memenuhi kebutuhan para pecinta sepak bola.
+
+                Kami menggunakan bahan berkualitas tinggi yang nyaman dipakai, baik untuk aktivitas olahraga maupun gaya
+                sehari-hari. Tersedia dalam berbagai ukuran dan desain modern yang sesuai dengan tren terkini.
+
+                Hubungi kami untuk pesanan custom dengan desain pribadi atau untuk mendapatkan informasi promo terbaru.
+                Bergabunglah bersama kami untuk merayakan semangat olahraga dan kebersamaan melalui produk terbaik kami!
+            </p>
+            <div class="flex space-x-4 mt-16">
+                <a href="https://www.instagram.com" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.348 3.608 1.323.975.975 1.26 2.242 1.323 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.348 2.633-1.323 3.608-.975.975-2.242 1.26-3.608 1.323-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.348-3.608-1.323-.975-.975-1.26-2.242-1.323-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.348-2.633 1.323-3.608.975-.975 2.242-1.26 3.608-1.323 1.266-.058 1.646-.07 4.85-.07m0-2.163C8.69 0 8.265.012 7.15.07 5.388.144 4.127.522 3.165 1.485.985 3.665.985 8.335.985 12s0 8.335 2.18 10.515c.962.963 2.223 1.341 3.985 1.415 1.115.058 1.54.07 4.85.07s3.735-.012 4.85-.07c1.762-.074 3.023-.452 3.985-1.415C23.015 20.335 23.015 15.665 23.015 12s0-8.335-2.18-10.515C19.873.522 18.612.144 16.85.07 15.735.012 15.31 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.938 3.938 0 1 1 0-7.876 3.938 3.938 0 0 1 0 7.876zm6.406-10.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
+                    </svg>
+                </a>
+                <a href="https://www.github.com" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.495.998.108-.775.418-1.305.76-1.605-2.665-.305-5.467-1.335-5.467-5.93 0-1.31.47-2.38 1.235-3.22-.125-.303-.535-1.523.115-3.176 0 0 1.005-.322 3.3 1.23a11.524 11.524 0 0 1 3-.405c1.02.005 2.04.137 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.655 1.653.245 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.807 5.625-5.48 5.92.43.372.815 1.103.815 2.22 0 1.605-.015 2.898-.015 3.293 0 .315.21.697.825.577C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                </a>
+                <a href="https://x.com/" target="_blank"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z" />
+                    </svg>
+
+                </a>
+            </div>
+        </div>
+        <div class="slider max-w-sm md:w-1/2">
+            <div class="slider-images">
+                <img src="img/indo3.webp" alt="Gambar 1">
+                <img src="img/indo.jpeg" alt="Gambar 2">
+                <img src="img/indo1.jpg" alt="Gambar 3">
+                <img src="img/indo4.jpg" alt="Gambar 4">
+                <img src="img/indo7.webp" alt="Gambar 5">
+
+
+            </div>
+
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    let currentSlide = 0;
+
+
+    function moveSlide(direction) {
+        const slides = document.querySelectorAll(".slider-images img");
+        const totalSlides = slides.length;
+        currentSlide += direction;
+
+        if (currentSlide < 0) {
+            currentSlide = totalSlides - 1;
+        } else if (currentSlide >= totalSlides) {
+            currentSlide = 0;
+        }
+
+        const slider = document.querySelector(".slider-images");
+        slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+    }
+    // Auto slide setiap 3 detik
+    setInterval(() => {
+        moveSlide(1);
+    }, 4000);
+</script>
+
+<section class="py-20 text-center" id="author">
+    <h2 class="text-3xl font-semibold mb-4">My Profile</h2>
+    <img src="img/foto1.jpg" alt="Profil Pengembang" class="mx-auto rounded-full mb-4" width="150">
+    <p>Sayed Muhammad Qadri </p>
+    <p>Mahasiswa STT-NF Program Studi Teknik Informatika Angkatan 24</p>
+    <br>
+    <div class="flex space-x-4 justify-center">
+        <a href="https://www.instagram.com/sayyid_albouftaim/" target="_blank"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.348 3.608 1.323.975.975 1.26 2.242 1.323 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.348 2.633-1.323 3.608-.975.975-2.242 1.26-3.608 1.323-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.348-3.608-1.323-.975-.975-1.26-2.242-1.323-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.348-2.633 1.323-3.608.975-.975 2.242-1.26 3.608-1.323 1.266-.058 1.646-.07 4.85-.07m0-2.163C8.69 0 8.265.012 7.15.07 5.388.144 4.127.522 3.165 1.485.985 3.665.985 8.335.985 12s0 8.335 2.18 10.515c.962.963 2.223 1.341 3.985 1.415 1.115.058 1.54.07 4.85.07s3.735-.012 4.85-.07c1.762-.074 3.023-.452 3.985-1.415C23.015 20.335 23.015 15.665 23.015 12s0-8.335-2.18-10.515C19.873.522 18.612.144 16.85.07 15.735.012 15.31 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.938 3.938 0 1 1 0-7.876 3.938 3.938 0 0 1 0 7.876zm6.406-10.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
+            </svg>
+        </a>
+        <a href="https://github.com/Albouftaim" target="_blank"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.495.998.108-.775.418-1.305.76-1.605-2.665-.305-5.467-1.335-5.467-5.93 0-1.31.47-2.38 1.235-3.22-.125-.303-.535-1.523.115-3.176 0 0 1.005-.322 3.3 1.23a11.524 11.524 0 0 1 3-.405c1.02.005 2.04.137 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.655 1.653.245 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.807 5.625-5.48 5.92.43.372.815 1.103.815 2.22 0 1.605-.015 2.898-.015 3.293 0 .315.21.697.825.577C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sayed-muhammad-qadri-5b4193294/" target="_blank"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-6 h-6 text-black" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24 mx-auto">
+                <path fill-rule="evenodd"
+                    d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" />
+                <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+            </svg>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="_blank"
+            class="text-gray-500 hover:text-gray-900 dark:hover:text-black">
+            <svg class="w-6 h-6 text-black" fill="currentColor" aria-hidden="true" viewBox="0 0 50 50">
+                <path
+                    d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z">
+                </path>
+            </svg>
+        </a>
+
+    </div>
+    </div>
+
+    </head>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropdownToggleButtons = document.querySelectorAll('[data-dropdown-toggle]');
+            dropdownToggleButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const dropdownId = button.getAttribute('data-dropdown-toggle');
+                    const dropdownMenu = document.getElementById(dropdownId);
+                    dropdownMenu.classList.toggle('hidden');
+                });
+            });
+        });
+    </script>
+
+    <body>
+        <footer>
+            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+        </footer>
+
+</section>
+</body>
+
+</html>
